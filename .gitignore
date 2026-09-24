@@ -1,0 +1,12 @@
+# Never commit credentials or account sessions.
+*.session
+*.session-*
+sessions*/
+.env
+.env.*
+contas.json
+*.pyc
+__pycache__/
+# Generated offline copies can contain the entire private report.
+dist/
+test-results/
